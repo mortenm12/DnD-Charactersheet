@@ -3,36 +3,59 @@
 
     </head>
     <body>
-        <div id="topbar">
-            <div id="dragon">
-                <input type="text" id="charname">
-                <div>CHARACTER NAME</div>
-            </div>
-            <div>
-                <table>
-                    <tr>
-                        <td><input type="text" id="classlvl"></td>
-                        <td><input type="text" id="background"></td>
-                        <td><input type="text" id="playername"></td>
-                    </tr>
-                    <tr>
-                        <td>CLASS & LEVEL</td>
-                        <td>BACKGROUND</td>
-                        <td>PLAYERNAME</td>
-                    </tr>
-                    <tr>
-                        <td><input type="text" id="race"></td>
-                        <td><input type="text" id="alignment"></td>
-                        <td><input type="text" id="xp"></td>
-                    </tr>
-                    <tr>
-                        <td>RACE</td>
-                        <td>ALIGNMENT</td>
-                        <td>EXPERIENCEPOINTS</td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-
+        <table>
+            <tr>
+                <td colspan="3">
+                    <table>
+                        <tr id="topbar">
+                            <td>
+                                <input type="text" id="charname">
+                                <div>CHARACTER NAME</div>
+                            </td>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td><input type="text" id="classlvl"></td>
+                                        <td><input type="text" id="background"></td>
+                                        <td><input type="text" id="playername"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>CLASS & LEVEL</td>
+                                        <td>BACKGROUND</td>
+                                        <td>PLAYERNAME</td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="text" id="race"></td>
+                                        <td><input type="text" id="alignment"></td>
+                                        <td><input type="text" id="xp"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>RACE</td>
+                                        <td>ALIGNMENT</td>
+                                        <td>EXPERIENCEPOINTS</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td id="ability" rowspan="2"></td>
+                <td id="hpblock"></td>
+                <td id="traitsblock"></td>
+            </tr>
+            <tr>
+                <td id="attackblock"></td>
+                <td id="featureblock" rowspan="3"></td>
+            </tr>
+            <tr>
+                <td id="passiveblock"></td>
+                <td id="equpimentblock" rowspan="2"></td>
+            </tr>
+            <tr>
+                <td id="proflangblock"></td>
+            </tr>
+        </table>
     </body>
 </html>
